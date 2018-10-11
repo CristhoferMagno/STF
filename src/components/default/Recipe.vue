@@ -49,7 +49,11 @@ export default {
                         <div class="row" >
                             <div class="div-titulo-imprimir">
                                 <h3 class="titulo-dica">BOLO</h3>
-                                <a href="javascript:print();"><img class="imprimir" src="static/imgs/print-orange.png" width="100px" height="40px" /></a>
+                                <a href="javascript:print();">
+                                    <span class="imprimir" >Imprimir 
+                                        <img class="img-imprimir" src="static/imgs/print-orange.png" />
+                                    </span>
+                                </a>
                             </div>
                         </div>
 
@@ -181,7 +185,7 @@ body{
 
 .imprimir{
     float: right;
-    width:100px;
+    width:40px;
     height:40px;
 }
 
@@ -256,8 +260,16 @@ body{
     }
 
     .imprimir{
-        width:75px;
-        height: 30px;
+        width:90px;
+        height: 25px;
+        font-size: 16px;
+        font-family: Apple Chancery, cursive;
+        color: rgb(255, 136, 0);
+    }
+
+    .img-imprimir{
+        width:16px;
+        height: 16px;
     }
 
     .paragrafo-receita{
@@ -306,8 +318,16 @@ body{
     }
 
     .imprimir{
-        width:80px;
-        height: 30px;
+        width:90px;
+        height: 25px;
+        font-size: 16px;
+        font-family: Apple Chancery, cursive;
+        color: rgb(255, 136, 0);
+    }
+
+    .img-imprimir{
+        width:16px;
+        height: 16px;
     }
 
     .paragrafo-receita{
@@ -345,8 +365,16 @@ body{
     }
 
     .imprimir{
-        width:90px;
-        height: 40px;
+        width:100px;
+        height: 30px;
+        font-size: 18px;
+        font-family: Apple Chancery, cursive;
+        color: rgb(255, 136, 0);
+    }
+
+    .img-imprimir{
+        width:18px;
+        height: 18px;
     }
 
     .paragrafo-receita{
@@ -385,8 +413,16 @@ body{
     }
 
     .imprimir{
-        width:95px;
+        width:110px;
         height: 40px;
+        font-size: 20px;
+        font-family: Apple Chancery, cursive;
+        color: rgb(255, 136, 0);
+    }
+
+    .img-imprimir{
+        width:20px;
+        height: 20px;
     }
 
     .div-ingredientes{
@@ -413,7 +449,15 @@ body{
 
     .imprimir{
         width:110px;
-        height: 45px;
+        height: 40px;
+        font-size: 20px;
+        font-family: Apple Chancery, cursive;
+        color: rgb(255, 136, 0);
+    }
+
+    .img-imprimir{
+        width:20px;
+        height: 20px;
     }
 
     .div-ingredientes{
